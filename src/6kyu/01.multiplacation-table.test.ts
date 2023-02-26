@@ -1,4 +1,5 @@
-import { multiplicationTable } from "./01.multiplacation-table";
+import { multiplicationTable } from "./01.multiplication-table";
+
 describe("Testing multiplication table function", () => {
   it("should strict equal matrix arr", () => {
     expect(multiplicationTable(1)).toStrictEqual([[1]]);
